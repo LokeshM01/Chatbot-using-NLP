@@ -1,0 +1,86 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .cen{
+    text-align: center;
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+main {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.grocery-items {
+    width: 70%; /* Adjust width of grocery items section */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 1rem; /* Gap between items */
+    margin: 0 auto; /* Center the section */
+    text-align: center; /* Center text */
+}
+
+.grocery-item {
+    width: calc(33.33% - 1rem); /* Adjust item width for 3 items per row with gap */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text and items */
+}
+
+.grocery-item img {
+    width: 200px; /* Adjust image size */
+    height: 200px;
+    border-radius: 4px;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.item-price {
+    color: #2ecc71;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.chatbot {
+    width: 300px; /* Fixed width for chatbot */
+    padding: 1rem;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fixed positioning */
+    top: 66px; /* Adjust top position */
+    right: 40px; /* Adjust right position */
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
